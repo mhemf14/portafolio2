@@ -1,0 +1,185 @@
+/*variables de color*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.menu {
+  background: #2149a0;
+  padding: 5px 20px;
+}
+
+.menu__ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 120px;
+}
+
+.menu__ul__logo {
+  font-size: 1px;
+  width: 142px;
+  height: 50;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu__ul__li {
+  font-size: 25px;
+  padding: 15px 5px;
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .menu__ul {
+    display: contents;
+  }
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  color: white;
+  text-decoration: underline;
+  font-family: 'Righteous', cursive;
+}
+
+/* Desktop menu */
+@media all and (min-width: 900px) {
+  .menu__ul__li {
+    display: block;
+    width: auto;
+  }
+  .menu__ul__logo {
+    -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+            order: 0;
+  }
+  .menu__ul__li {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .menu li {
+    padding: 15px 10px;
+  }
+}
+
+.logo {
+  width: 120px;
+  height: 150;
+}
+
+/*banner*/
+.banner {
+  height: 700px;
+  position: relative;
+  display: contents;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.banner__img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-image: url("assets/images/Viaja.png");
+}
+
+@media (max-width: 768px) {
+  .banner__img {
+    width: 100%;
+    height: 70%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+
+/*servicios*/
+.servicios {
+  scroll-snap-align: center;
+  scroll-snap-stop: always;
+  font-family: 'Amatic SC', cursive;
+}
+
+@media (min-width: 768px) {
+  .servicios {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 33.3% 33.3% 33.3%;
+        grid-template-columns: 33.3% 33.3% 33.3%;
+    -webkit-column-gap: 1rem;
+            column-gap: 1rem;
+  }
+}
+
+.servicios__div {
+  text-align: center;
+}
+
+.servicios__div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.servicios__div h3 {
+  font-size: 40px;
+  color: #2149a0;
+  font-family: 'Righteous', cursive;
+}
+
+.iconos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 150px;
+  width: 150px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #2149a0;
+  border-radius: 50%;
+}
+
+.iconos i {
+  font-size: 2rem;
+  color: var(--oscuro);
+}
+
+.tituloser {
+  font-family: 'Righteous', cursive;
+  text-align: center;
+  font-size: 30px;
+  color: #c2cf0d;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+/*# sourceMappingURL=main.css.map */
