@@ -128,7 +128,8 @@ a {
 .servicios {
   scroll-snap-align: center;
   scroll-snap-stop: always;
-  font-family: 'Amatic SC', cursive; 
+  font-family: 'Arvo', serif;
+  text-align: left;
 }
 @media (min-width:768px) {
   .servicios {
@@ -152,6 +153,7 @@ a {
   color: $principal;
   font-family: 'Righteous', cursive;
 }
+
 
 
 .iconos {
