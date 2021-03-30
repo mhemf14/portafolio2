@@ -223,7 +223,7 @@ h1 {
           flex: 0 0 100%;
   width: 500;
   height: 500;
-  background-image: url(../assets/images/Viaja.png);
+  background-image: url(../images/Viaja.png);
   counter-increment: item;
   background-size: cover;
 }

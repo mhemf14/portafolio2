@@ -11,6 +11,7 @@ h1{
     padding-top: 75%;
     filter: drop-shadow(0 0 10px #0003);
     perspective: 100px;
+   
   }
   
   .carousel__viewport {
@@ -31,12 +32,11 @@ h1{
     flex: 0 0 100%;
     width: 500;
     height: 500;
-    background-image:url(../assets/images/Viaja.png);
+    background-image:url(../images/Viaja.png);
     counter-increment: item;
     background-size:cover;
   }
-  
-  
+ 
 
   .carousel__slide:nth-child(even) {
     background-color: #99f;

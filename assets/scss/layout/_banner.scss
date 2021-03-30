@@ -1,112 +1,10 @@
-/*variables de color*/
-$principal : rgb(33, 73, 160);
-
-* {
-  
-    padding: 0;
-    margin: 0;
-  }
-
-.menu{
-    background: $principal;
-    padding: 5px 20px;
-  
-        
-        }
-  
-
-
-.menu__ul{
-    list-style-type: none;
-    display: flex;
-        align-items: center;
-        flex-wrap: nowrap;
-        justify-content: space-around;
-        height: 120px;
-        
-           
-}
-.menu__ul__logo{
-    font-size: 1px;
-    width: 142px;
-    height: 50;
-    display: flex;
-
-    
-
-    
-  }
-
-
-.menu__ul__li{
-    font-size: 25px;
-    padding: 15px 5px;
-    white-space: nowrap;     
-    
-  
-    }
-    
-
-        
-
-
-
-
-@media (max-width: 768px) {
-    .menu__ul {
-      
-        display: contents;
-    }
-    
-  }   
- 
-  
-
-
-
-
-
-
-a {
-    color: white;
-    text-decoration: none;
-    color: white;
-    text-decoration: underline;
-    font-family: 'Righteous', cursive;
-}
-
-
-/* Desktop menu */
-@media all and (min-width: 900px) {
-    .menu__ul__li {
-      display: block;
-      width: auto;
-    }
-    
-    .menu__ul__logo {
-      order: 0;
-    }
-    .menu__ul__li {
-      order: 1;
-    }
-   
-    .menu li {
-      padding: 15px 10px;
-    }
-  
-  }
-  .logo{
-    width: 120px;
-    height: 150;
-  }
-
-  /*banner*/
-  .banner{
+.banner{
     height: 700px;
     position: relative;
     display: contents;
     align-items: center;
     justify-content: center;
+  
 }
 .banner__img{
     height: 100%;
@@ -182,5 +80,3 @@ a {
   float: left;
   width: 50%;
 }
-
-
