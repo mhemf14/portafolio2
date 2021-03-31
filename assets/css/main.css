@@ -359,12 +359,33 @@ h1 {
   width: 50%;
 }
 
-.footer {
-  text-align: center;
+.columna {
+  width: 95%;
+  overflow: hidden;
+  height: 100%;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
-.footer__p {
-  text-align: center;
-  font-size: 10px;
+.column1 {
+  width: 200px;
+  background-color: #5B7444;
+  height: 300px;
+  float: left;
+}
+
+.column2 {
+  width: 400px;
+  background-color: #47697E;
+  height: 300px;
+  float: left;
+}
+
+.column3 {
+  width: 200px;
+  background-color: #A3C586;
+  height: 300px;
+  float: left;
 }
 /*# sourceMappingURL=main.css.map */
